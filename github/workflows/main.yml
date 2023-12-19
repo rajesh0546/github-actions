@@ -1,0 +1,10 @@
+name: github-actions learning
+
+on: push 
+
+jobs:
+ build:
+  runs-on: ubuntu-latest
+  steps:
+   - name: checkout repository
+     uses: actions/checkout@v3
