@@ -1,10 +1,14 @@
 name: github-actions learning
 
-on: push 
+on: 
+  push:
+   paths:
+     - '**'
 
 jobs:
  build:
   runs-on: ubuntu-latest
   steps:
    - name: checkout repository
+     run: echo "This file is running the actions/checkout@v3 to clone the repository."
      uses: actions/checkout@v3
