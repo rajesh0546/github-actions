@@ -1,9 +1,8 @@
 name: github-actions learning
 
-on: 
-  push:
-   paths:
-     - '**'
+on:
+ pull_request:
+    branches: [ main ]
 
 jobs:
  build:
