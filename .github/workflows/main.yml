@@ -3,6 +3,8 @@ name: github-actions learning
 on:
  pull_request:
     branches: [ main ]
+    paths:
+      - '**'
 
 jobs:
  build:
