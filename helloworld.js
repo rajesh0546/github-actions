@@ -1,2 +1,2 @@
 console.log('hello world')
-console.log('added new branch')
+console.log('update the log')
